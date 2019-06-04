@@ -46,3 +46,11 @@ To evaluate two results for a query set, use `sort_result.py` script as follows.
 ./daf_1min -d human -q human_10n -n 100 > result2
 python sort_result.py result1 result2
 ```
+
+## Run with docker
+
+```
+docker build -t daf .
+
+docker run -it daf
+```
